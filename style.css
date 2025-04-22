@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+  }
+
+  canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
