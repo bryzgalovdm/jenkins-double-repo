@@ -11,7 +11,7 @@ resizeCanvas();
 
 const nodes = [];
 const connections = [];
-const nodeCount = 200;
+const nodeCount = 150;
 const nodeRadius = 2;
 const connectionDistance = 150;
 const signalSpeed = 0.05;
